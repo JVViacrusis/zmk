@@ -5,6 +5,7 @@
  */
 
 #include "cradio.dtsi"
+#include <dt-bindings/zmk/trackball_pim447.h> // for PIM447_MOVE and PIM447_SCROLL constants.
 
 &default_transform {
 	col-offset = <17>;
@@ -27,5 +28,6 @@
 		//invert-scroll-x;        // Invert wheel X axis (left is right, and vice versa)
 		//invert-scroll-y;        // Invert wheel Y axis (up is down, and vice versa)
 		//mode = <PIM447_SCROLL>; // Act as mouse wheels at startup (default: PIM447_MOVE for a pointer)
+		mode = <PIM447_MOVE>; // Act as mouse at startup (default: PIM447_MOVE for a pointer)
 	};
 };
