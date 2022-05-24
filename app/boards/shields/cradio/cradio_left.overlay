@@ -5,3 +5,4 @@
  */
 
 #include "cradio.dtsi"
+#include "cradio.overlay"
