@@ -57,10 +57,10 @@
 &i2c1 {
 	status = "okay";
 
-	trackball_pim447@a {
-		compatible = "pimoroni,trackball_pim447";
+	pim477_trackball@a {
+		compatible = "pimoroni,pim447_trackball";
 		reg = <0xa>;
-		label = "TRACKBALL_PIM447";
+		label = "PIM447_TRACKBALL";
 		
 		//move-factor = <2>;      // Increase pointer velocity (default: 1)
 		//invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
