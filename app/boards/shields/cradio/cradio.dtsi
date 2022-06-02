@@ -54,7 +54,7 @@
 
 #include <dt-bindings/zmk/trackball_pim447.h> // for PIM447_MOVE and PIM447_SCROLL constants.
 
-&pro_micro_i2c {
+&i2c1 {
 	status = "okay";
 
 	trackball_pim447@a {
