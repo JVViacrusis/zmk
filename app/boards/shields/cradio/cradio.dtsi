@@ -5,8 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-CONFIG_ZMK_MOUSE=y
-CONFIG_ZMK_TRACKBALL_PIM477=y
+
 / {
 
 	chosen {
